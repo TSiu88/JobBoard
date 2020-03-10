@@ -7,13 +7,13 @@
   <body>
     @using JobBoard.Models
     <h1>Job Openings</h1>
-    @{foreach (JobOpening job in Model.GetAll())
+    @{foreach (JobOpening job in JobOpening.GetAll())
     {
-      <h4>@Model.Title, @Model.Salary</h4>
-      <p>@Model.Description</p>
-      <p>@Model.Contact.Name</p>
-      <p>@Model.Contact.Email</p>
-      <p>@Model.Contact.PhoneNumber</p>
+      <h4>@job.Title, @job.Salary</h4>
+      <p>@job.Description</p>
+      <p>@job.Contact.Name</p>
+      <p>@job.Contact.Email</p>
+      <p>@job.Contact.PhoneNumber</p>
     }}
     <div class="footer">
       <a href="/">Return To Job Board</a>
