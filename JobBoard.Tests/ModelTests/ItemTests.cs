@@ -1,8 +1,8 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using ProjectName.Models;
+using JobBoard.Models;
 using System;
 
-namespace ProjectName.Tests
+namespace JobBoard.Tests
 {
   [TestClass]
   public class ItemTests

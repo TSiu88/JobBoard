@@ -1,6 +1,6 @@
 using System;
 
-namespace ProjectName.Models
+namespace JobBoard.Models
 {
   public class Item
   {

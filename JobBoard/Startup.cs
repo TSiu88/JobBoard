@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace ProjectName
+namespace JobBoard
 {
   public class Startup
   {
@@ -26,12 +26,14 @@ namespace ProjectName
 
     public void Configure(IApplicationBuilder app)
     {
+      app.UseDeveloperExceptionPage();
       app.UseMvc(routes =>
       {
         routes.MapRoute(
           name: "default",
           template: "{controller=Home}/{action=Index}/{id?}");
       });
+      app.UseStaticFiles();
 
       app.Run(async (context) =>
       {
