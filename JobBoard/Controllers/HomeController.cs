@@ -16,9 +16,9 @@ namespace JobBoard.Controllers
 
     [Route("/")]
     public ActionResult HomePage() {
-      Item myItem = new Item("property");
-      myItem.Property = "Lina";
-      return View(myItem);
+      JobOpening myJobOpening = new JobOpening("property");
+      myJobOpening.Property = "Lina";
+      return View(myJobOpening);
     }
   }
 }

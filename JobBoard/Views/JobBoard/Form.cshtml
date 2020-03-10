@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Post a Job Listing</title>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+  </head>
+  <body>
+    <h1>Enter a Job Posting Here</h1>
+    <form action="/jobs" method="post">
+      <div class="form-group">
+        <label for="title">Job Title</label>
+        <input id="title" name="title" type="text">
+      </div>
+      <div class="form-group">
+        <label for="salary">Salary</label>
+        <input id="salary" name="salary" type="text">
+      </div>
+      <div class="form-group">
+        <label for="description">Job Description</label>
+        <input id="description" name="description" type="text">
+      </div>
+      <h3>Contact Info</h3>
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text">
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input id="email" name="email" type="text">
+      </div>
+      <div class="form-group">
+        <label for="phoneNumber">Phone Number</label>
+        <input id="phoneNumber" name="phoneNumber" type="text">
+      </div>
+    </form>
+    <button type="submit">Add Job Opening</button>
+    <div class="footer">
+      <a href="/">Return to Job Board</a>
+      <a href="/jobs">View Job Openings</a>
+    </div>
+
+  </body>
+</html>

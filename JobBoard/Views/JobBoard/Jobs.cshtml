@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Job Board Home</title>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+  </head>
+  <body>
+    @using JobBoard.Models
+    <h1>Job Openings</h1>
+    @{foreach (JobOpening job in Model.GetAllJobs())
+    {
+      <h4>@Model.Title, @Model.Salary</h4>
+      <p>@Model.Description</p>
+      <p>@Model.Contact</p>
+    }}
+    <div class="footer">
+      <a href="/">Return To Job Board</a>
+    </div>
+  </body>
+</html>

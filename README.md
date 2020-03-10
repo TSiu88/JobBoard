@@ -63,9 +63,6 @@ _README under construction_
 * _The user can create a job listing for an opening from a form_
   * _Example Input: User fills out form_
   * _Example Output: Job opening appears on main page_
-* _Example: The program adds "way" to single-letter words beginning with a vowel._
-  * _Example Input: i_
-  * _Example Output: iway_
 
 
 ## Screenshots
@@ -94,7 +91,7 @@ _There are currently no known bugs in this program_
 
 ## Support and contact details
 
-_If there are any question or concerns please contact me at my [email](mailto:tsiu88@gmail.com). Thank you._
+_If there are any question or concerns please contact us at our emails: [Tiffany Siu](mailto:tsiu88@gmail.com) and [Sasa Schwartz](mailto:seschwartz8@gmail.com). Thank you._
 
 ### License
 
