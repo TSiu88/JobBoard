@@ -24,8 +24,16 @@
 ---
 ## Description
 
+#### Summary of Work at Home Activities
+* Car Dealership
+  * get and post for a single route is possible
+* Parcels
+  * Multiple controllers and project structure
+* Job Board
+  * importance of naming and route displays
+* Struggles: get vs post, getting routes to properly display
+
 _README under construction_
-<!-- _Detailed desc w/ purpose/usage, what does, motivation to create, why exists, other info for users/developers to have_ -->
 
 ## Setup/Installation Requirements
 
